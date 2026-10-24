@@ -37,7 +37,7 @@ end
 -- ============================================================================
 -- URL RAW GITHUB DE TON SCRIPT
 -- ============================================================================
-local YABUJIN_GITHUB_URL = "https://raw.githubusercontent.com/Pjdojefoejhfuh/autoload/refs/heads/main/autoload"
+local YABUJIN_GITHUB_URL = "https://raw.githubusercontent.com/Pjdojefoejhfuh/autoload/refs/heads/main/autoload?t=" .. tostring(os.time())
 
 -- Hook queue_on_teleport : enregistre le rechargement du script
 local function yabujinInstallTeleportQueue()
